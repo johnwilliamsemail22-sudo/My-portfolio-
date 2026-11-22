@@ -633,6 +633,8 @@ footer[id] {
 }
 
 .svc__inner {
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
   overflow: hidden;
   background: #0a0a0a;
@@ -643,6 +645,7 @@ footer[id] {
 
 .svc__art {
   position: relative;
+  flex: 0 0 auto;
   aspect-ratio: 0.76;
   background: #080808;
   overflow: hidden;
@@ -686,7 +689,8 @@ footer[id] {
 }
 
 .svc__foot {
-  padding: 18px 20px 20px;
+  flex: 0 0 auto;
+  padding: 18px 20px 22px;
   background: #ddc6aa;
   min-height: 96px;
   display: flex;

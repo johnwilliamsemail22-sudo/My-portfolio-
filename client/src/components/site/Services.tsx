@@ -25,10 +25,12 @@ export default function Services() {
               <article
                 className="svc"
                 key={service.title}
-                data-reveal="scale"
-                style={{ "--d": `${index * 110}ms` } as CSSProperties}
               >
-                <div className="svc__inner">
+                <div
+                  className="svc__inner"
+                  data-reveal="scale"
+                  style={{ "--d": `${index * 110}ms` } as CSSProperties}
+                >
                   <div
                     className="svc__art"
                     style={{ "--c1": tone.c1, "--c2": tone.c2 } as CSSProperties}
