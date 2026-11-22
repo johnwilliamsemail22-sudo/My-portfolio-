@@ -34,7 +34,7 @@ export default function Nav() {
           ))}
         </nav>
 
-        <a className="nav__cta" href="#contact">
+        <a className="nav__cta" href={site.contact.whatsapp} target="_blank" rel="noopener noreferrer">
           Let&rsquo;s Talk
           <ArrowUpRight size={13} />
         </a>

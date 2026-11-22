@@ -44,7 +44,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href={`mailto:${site.contact.email}`}>Email</a>
+                <a href={site.contact.whatsapp} target="_blank" rel="noopener noreferrer">
+                  WhatsApp · +254 743 346 161
+                </a>
               </li>
             </ul>
           </div>

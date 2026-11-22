@@ -24,8 +24,8 @@ export default function About() {
               See My Recent Work
               <ArrowUpRight />
             </a>
-            <a className="pill pill--ghost" href={`mailto:${site.contact.email}`}>
-              {site.contact.email}
+            <a className="pill pill--ghost" href={site.contact.whatsapp} target="_blank" rel="noopener noreferrer">
+              Message Me on WhatsApp
             </a>
           </div>
         </div>

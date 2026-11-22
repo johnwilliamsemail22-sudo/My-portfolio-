@@ -3,8 +3,6 @@ import { site } from "@/site.config";
 import { ArrowUpRight } from "./Icons";
 
 export default function CtaBand() {
-  const mailto = `mailto:${site.contact.email}?subject=Let%27s%20work%20together`;
-
   return (
     <section className="cta" id="contact">
       <div className="cta__glow cta__glow--a" aria-hidden="true" />
@@ -23,14 +21,14 @@ export default function CtaBand() {
         </p>
 
         <div data-reveal style={{ "--d": "170ms" } as CSSProperties}>
-          <a className="pill pill--light" href={mailto}>
+          <a className="pill pill--light" href={site.contact.whatsapp} target="_blank" rel="noopener noreferrer">
             Let&rsquo;s Connect
             <ArrowUpRight />
           </a>
         </div>
 
-        <a className="cta__mail" href={mailto}>
-          {site.contact.email}
+        <a className="cta__mail" href={site.contact.whatsapp} target="_blank" rel="noopener noreferrer">
+          Chat on WhatsApp · +254 743 346 161
         </a>
       </div>
     </section>

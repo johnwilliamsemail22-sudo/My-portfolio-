@@ -14,9 +14,8 @@ export const site = {
   about:
     "I combine design instinct with front-end craft to build websites that look considered and actually work. My focus is clarity, pace and personality — restaurant menus people can read on a phone, booking flows that do not lose customers, and brand pages that feel like the place they represent.",
   contact: {
-    // Replace these with your real details — they appear in the CTA and footer.
-    email: "hello@ahmed.design",
-    whatsapp: "https://wa.me/",
+    // WhatsApp is the primary contact channel.
+    whatsapp: "https://wa.me/254743346161?text=Hi%20Ahmed%2C%20I%27d%20like%20to%20talk%20about%20a%20project.",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",
   },
