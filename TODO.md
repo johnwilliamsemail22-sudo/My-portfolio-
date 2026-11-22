@@ -1,9 +1,9 @@
-# Abdi — Portfolio
+# Ahmed — Portfolio
 
 Single-page portfolio that reproduces the design language of the reference site (warm cream canvas,
 oversized taupe display name behind a cut-out portrait with sunflower accents, floating dark pill nav
 with orange CTA, tilted service cards, marquee visual archive, black projects section, amber CTA band,
-cream footer) while showing only a curated subset of sections and adding Abdi's four recent client sites.
+cream footer) while showing only a curated subset of sections and adding Ahmed's four recent client sites.
 
 ## Outcomes
 

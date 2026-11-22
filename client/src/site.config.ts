@@ -3,19 +3,19 @@
  * Change a value in this file and the whole site updates.
  */
 export const site = {
-  name: "Abdi",
+  name: "Ahmed",
   role: "Web Designer & Developer",
   location: "Mombasa, Kenya",
   intro: {
     greeting: "Hello I'm",
-    headline: "Abdi",
+    headline: "Ahmed",
     positioning: "I design websites that get noticed — and build brands that get chosen.",
   },
   about:
     "I combine design instinct with front-end craft to build websites that look considered and actually work. My focus is clarity, pace and personality — restaurant menus people can read on a phone, booking flows that do not lose customers, and brand pages that feel like the place they represent.",
   contact: {
     // Replace these with your real details — they appear in the CTA and footer.
-    email: "hello@abdi.design",
+    email: "hello@ahmed.design",
     whatsapp: "https://wa.me/",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",

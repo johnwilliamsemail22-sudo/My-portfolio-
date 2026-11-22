@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Abdi — Portfolio
+   Ahmed — Portfolio
    Warm cream canvas · oversized taupe display type · orange accents
    ========================================================================== */
 
@@ -1369,7 +1369,7 @@ footer[id] {
 
 @media (max-width: 640px) {
   .hero__name {
-    font-size: clamp(76px, 30vw, 168px);
+    font-size: clamp(76px, 27vw, 168px);
     padding-top: 96px;
   }
 
